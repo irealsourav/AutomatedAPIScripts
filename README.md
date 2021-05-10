@@ -13,7 +13,7 @@ I found few issues  ::
 2. Response header of Content type is text/html instead of application/json (though I added it in the request header)
 3. Proper response code and proper response body is not present
 4. When we are setting a name, brightness or color PUT o PATCH method should be used instead of POST which updates the whole data
-5. Cannot connect to more than one device 
+5. Cannot connect to more than one device at a time.
 
 **Question 3::**
 Another testing technique could be :: Contract testing .

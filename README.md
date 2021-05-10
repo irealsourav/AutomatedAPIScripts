@@ -6,3 +6,14 @@ Now, it will download all the dependency and run the test.After successful run ,
 to view the report in the html format .Just copy and paste to view the report.
 Example ::
 ![image](https://user-images.githubusercontent.com/36536191/117589401-877fb080-b129-11eb-9a06-209b021684a5.png)
+
+**Question 2::**
+I found few issues  ::
+1. No API versioning is present
+2. Response header of Content type is text/html instead of application/json (though I added it in the request header)
+3. Proper response code and proper response body is not present
+4. When we are setting a name, brightness or color PUT o PATCH method should be used instead of POST which updates the whole data
+5. Cannot connect to more than one device 
+
+**Question 3::**
+Another testing technique could be :: Contract testing .
